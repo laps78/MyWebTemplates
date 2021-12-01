@@ -1,0 +1,73 @@
+/* browsers' style reset */
+
+* {
+    margin: 0;
+}
+
+
+/* styles */
+
+@font-face {
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+    font-family: open-sans;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #494A4E;
+    opacity: 0.6;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item {
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1660px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-logo {
+    width: 245px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-list-item:nth-child(n+2) {
+    margin-left: 50px;
+}

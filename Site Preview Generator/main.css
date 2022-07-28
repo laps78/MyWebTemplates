@@ -1,0 +1,56 @@
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  width: 3000px;
+  height: 100vh;
+  position: relative;
+}
+
+.display__example {
+  position: absolute;
+}
+
+.mobile {
+  bottom: 150px;
+  left: 150px;
+  width: 375px;
+  height: 812px;
+  z-index: 30;
+  border: 1px solid red;
+}
+
+.tablet {
+  bottom: 150px;
+  right: 50px;
+  width: 1080px;
+  height: 810px;
+  z-index: 20;
+  border: 1px solid blue;
+}
+
+.laptop {
+  width: calc(1440px * 1.5);
+  height: calc(900px * 1.5);
+  bottom: 400px;
+  left: 340px;
+  z-index: 0;
+  border: 1px solid yellow;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+
+}

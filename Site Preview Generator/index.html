@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <!--тут подключи скрипт!-->
+  <title>Site Preview Generator</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="display">
+      <div class="display__example mobile">
+        <iframe id="mobile" src="https://google.com"></iframe>
+      </div>
+      <div class="display__example tablet">
+        <iframe id="tablet" srcdoc="tablet"></iframe>
+      </div>
+      </div>
+      <div class="display__example laptop">
+        <iframe id="laptop" srcdoc="laptop"></iframe>
+      </div>
+    </div>
+    </section>
+    <section class="form">
+      <div class="form__wrapper">
+        <form action="#0">
+          <input type="text" id="input-url" class="input__url" name="input_submit_url" plaseholder="Input target url here..." autofocus>
+          <buton type="submit" id="button_submit_ur" class="submit-url" name="button_submit_url" ></buton>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
